@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio</title>\
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="user">
+            <img src="onlypic.jpg" alt="">
+            <h3 class="name">Shaik Rakhaib</h3>
+            <p class="post">Software Development Engineer</p>
+        </div>
+        <nav class=" navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Coding Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div id="menu" class="fas fa-bars"></div>
+    <section class="home" id="home">
+        <h3>Hello</h3>
+        <h1>I'M<span> Shaik Rakhaib</span></h1>
+        <p>This is the interface of my personal portfolio website</p>
+        <a href="#about"><button class="btn">about me<i class="fas fa-user"></i></button></a>
+    </section>
+    
+    <section class="about" id="about">
+        <h1 class="heading"> <span>about</span> me </h1>
+        <div class="row">
+            <div class="info">
+                <h3> <span> name : </span> Shaik Rakhaib </h3>
+                <h3> <span> age: </span> 19 </h3>
+                <h3> <span> qualification : </span> B.tech(CSE) </h3>
+                <h3> <span> post : </span> Software Development Engineer </h3>
+                <h3> <span> language : </span> English,Hindi,Telugu </h3>
+                <a href="#"><button class="btn"> Home </i> </button></a>
+            </div>
+
+            <div class="counter">
+                 
+                <div class="box">
+                    <span>4</span>
+                    <h3>year of course</h3>
+                </div>
+                <div class="box">
+                    <span>1 to 2</span>
+                    <h3>project completed</h3>
+                </div>
+                <div class="box">
+                    <span>specialization</span>
+                    <h3>Data Science</h3>
+                </div>
+                <div class="box">
+                    <span>Got</span>
+                    <h3>Completion Certificate of Internship from Optms</h3>
+                </div>
+            </div>
+
+            </div>
+
+
+        </div>
+    </section>
+<section class="education" id="eduaction">
+    <h1 class="heading"> my <span>education</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2024</span>
+            <h3>B.tech(CSE)</h3>
+            <p>My name is Shaik Rakhaib pursuing my b.tech(CSE) from <br>
+            Lovely Professional University which is in Jalandhar(Punjab)<br>
+       </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2020</span>
+            <h3>intermediate</h3>
+            <p>I did my class 12th from SriVenkata Reddy Siddhartha which is in Andhra Pradesh
+            </p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2018</span>
+            <h3>board</h3>
+            <p>I did my 10th board from Vijaya Bharathi English Medium School(AP)</p>
+
+        </div>
+
+    </div>
+</section>
+<---!
+<section class="portfolio" id="portfolio">
+    <h1 class="heading"> My <span>Profiles</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="leetcodeProPic.jpg" alt="">
+        </div>
+        <!-- <div class="box">
+            <img src="1607325618-954009-polar-sun-designsjpg.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="graphic-design-portfolio-samir.jpg" alt="">
+
+        </div> -->
+        <div class="box">
+            <img src="hackerrankProPic.jpg" alt="">
+        </div>
+    </div>
+</section>
+---!>
+<section class="contact" id="contact">
+    <h1 class="heading"> <span> contact</span> me </h1>
+
+    <div class="row">
+        <div class="content">
+            <h3 class="title">contact info</h3>
+            <div class="info">
+                <h3> <i class="fas fa-envelope"></i> rakhaibshaik202@gmail.com</h3>
+                <h3> <i class="fas fa-phone"></i>+91 9666879593 </h3>
+                <h3> <i class="fas fa-phone"></i>+91 9996663331 </h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> Madanapalle, india -517325</h3>
+            </div>
+        </div>
+
+
+        <form action="">
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="text" placeholder="project" class="box">
+            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+
+            <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
